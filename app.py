@@ -172,4 +172,4 @@ def upload_file():
         return result
     
 if __name__ == "__main__":
-    app.run(debug=True,port=33507)
+    app.run()
