@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 import re
 from collections import Counter
 
-pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = './Tesseract-OCR/tesseract'
 
 def words(text): return re.findall(r'\w+', text.lower())
 
